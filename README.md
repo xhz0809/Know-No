@@ -1,5 +1,5 @@
 # Know-No
-We propose a new evaluation Benchmark Know-No with OmniAccuracy to better evaluate LLM performance when gold labels are both present and absent.
+LLM's classification ability has been overclaimed as they fail to truly reveal the LLM's human-level discrimination intelligence. To question whether LLMs understand the essence of the classification task or merely select from given options, we propose a new evaluation Benchmark Know-No with OmniAccuracy to better evaluate LLM performance when gold labels are both present and absent.
 
 This repository contains codes and scripts relevant to the dataset introduced in the paper [LLMs' Classification Performance is Overclaimed](https://arxiv.org/abs/2406.16203).
 
