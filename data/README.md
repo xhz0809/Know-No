@@ -2,14 +2,22 @@
 
 This folder contains three datasets used in the KNOW-NO benchmark. Below is a brief description of each dataset included.
 
-#### 1. MC-TEST
+### 1. MC-TEST
 - **Source**: [Richardson et al., 2013](https://aclanthology.org/D13-1020/).
 - **Description**: A multiple-choice reading comprehension benchmark.
 - **Inputs**: Elementary-school-level stories.
-- **Labels**: Each story is followed by 4 multiple-choice questions, with 4 unique answer options per question.
+- **Labels**: Each story is followed by four multiple-choice questions, with four unique answer options per question.
 - **Label Scope**: Instance-level (each question has a unique set of labels).
 - **Number of Instances**: 250 stories (1,000 questions).
 - **Challenge Level**: Low.
+
+#### Data Structure
+ - `id`: unique story id.
+ - `story`: the story.
+ - `question_list`: a list of four multiple-choice questions.
+   - `question`: question
+   - `options`: a list of four options
+   - `gold_option`: the ground truth option 
 
 #### 2. BANK-77
 - **Source**: [Casanueva et al., 2020](https://arxiv.org/abs/2003.04807).
