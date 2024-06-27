@@ -7,7 +7,7 @@ This repository contains codes and scripts relevant to the dataset introduced in
 ## Code Structure
  - `src/`: contains the scripts used for the experiments.
  - `data/`: contains the data used in the Know-No benchmark.
- - `results/`: contains the raw results obtained from selected LLMs.
+ - `results/`: contains the raw results obtained from selected LLMs. (will be released soon)
 
 ## Citation 
 Please cite the following work if you want to refer to this work: 
