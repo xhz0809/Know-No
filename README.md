@@ -5,8 +5,8 @@ This repository contains codes and scripts relevant to the dataset introduced in
 
 
 ## Code Structure
- - `src/`: contains the scripts used for the experiments.
  - `data/`: contains the data used in the Know-No benchmark.
+ - `OmniAccu/`: contains the code for OmniAccuracy
  - `results/`: contains the raw results obtained from selected LLMs. (will be released soon)
 
 ## Citation 
