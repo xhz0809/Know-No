@@ -1,7 +1,7 @@
 # Know-No
 We propose a new evaluation Benchmark Know-No with OmniAccuracy to better evaluate LLM performance when gold labels are both present and absent.
 
-This repository contains codes and scripts relevant to the dataset introduced in the paper[LLMs' Classification Performance is Overclaimed](https://arxiv.org/abs/2406.16203).
+This repository contains codes and scripts relevant to the dataset introduced in the paper [LLMs' Classification Performance is Overclaimed](https://arxiv.org/abs/2406.16203).
 
 
 ## Code Structure
