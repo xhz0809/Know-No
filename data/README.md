@@ -1,1 +1,28 @@
+# Datasets
+
+This folder contains three datasets used in the KNOW-NO benchmark. Below is a brief description of each dataset included.
+
+### 1. MC-TEST (originally from [Richardson et al., 2013](https://aclanthology.org/D13-1020/)
+- **Description**: A multiple-choice reading comprehension benchmark.
+- **Inputs**: Elementary-school-level stories.
+- **Labels**: Each story is followed by 4 multiple-choice questions, with 4 unique answer options per question.
+- **Label Scope**: Instance-level (each question has a unique set of labels).
+- **Number of Instances**: 250 stories (1,000 questions).
+- **Challenge Level**: Low.
+- 
+### 2. BANK-77 (originally from [Casanueva et al., 2020](https://arxiv.org/abs/2003.04807)
+- **Description**: This dataset consists of customer service queries in the banking and financial domain.
+- **Inputs**: Simple sentences.
+- **Labels**: 77 intents.
+- **Label Scope**: Task-level (all instances share the same set of labels).
+- **Number of Instances**: 1,000 (subset from the original 13,083).
+- **Challenge Level**: Moderate.
+
+### 3. EQUINFER (proposed by us and has never been seen by LLMs)
+- **Description**: A new dataset designed to evaluate equation inference based on context in scientific papers.
+- **Inputs**: LaTeX source code of the context (1,000 words) before and after an equation in NLP papers.
+- **Labels**: Each instance includes one correct equation and three negative options.
+- **Label Scope**: Instance-level.
+- **Number of Instances**: 1,049.
+- **Challenge Level**: High.
 
