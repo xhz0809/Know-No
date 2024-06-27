@@ -10,7 +10,7 @@ This folder contains three datasets used in the KNOW-NO benchmark. Below is a br
 - **Label Scope**: Instance-level (each question has a unique set of labels).
 - **Number of Instances**: 250 stories (1,000 questions).
 - **Challenge Level**: Low.
-- 
+
 ### 2. BANK-77
 - **Source**: [Casanueva et al., 2020](https://arxiv.org/abs/2003.04807).
 - **Description**: This dataset consists of customer service queries in the banking and financial domain.
