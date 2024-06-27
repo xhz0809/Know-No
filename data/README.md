@@ -19,12 +19,14 @@ This folder contains three datasets used in the KNOW-NO benchmark. Below is a br
 #### 2. BANK-77 1000
 - **Source**: [Casanueva et al., 2020](https://arxiv.org/abs/2003.04807).
 - **Description**: This dataset consists of customer service queries in the banking and financial domain.
-- **Inputs**: Simple sentences.
-- **Labels**: 77 intents.
-- **Label Scope**: Task-level (all instances share the same set of labels).
 - **Number of Instances**: 1,000 (subset from the original 13,083).
 - **Challenge Level**: Moderate.
 
+#### Data Structure
+ - `text`: customer service query.
+ - `label`: intent class index.
+ - `label_text`: intent class.
+   
 #### 3. EQUINFER 1049
 - **Source: proposed by us and has never been seen by LLMs**
 - **Description**: A new dataset designed to evaluate equation inference based on context in scientific papers.
